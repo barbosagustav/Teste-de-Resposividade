@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3868d6;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px
+}
