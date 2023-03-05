@@ -6,12 +6,117 @@
 header {
     background-color: #3868d6;
     height: 80px;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    display: flex   ;
+    justify-content: center;
 }
+
 
 header a {
     color: white;
     text-decoration: none;
     font-size: 20px
+}
+
+#conteiner1 {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    min-width: 500px;
+    background-color: #3868d6;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+nav #conteiner2 {
+    width: 60%;
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+#sobre {
+    padding: 0px 30px 0px 30px;
+}
+
+#sobre h2 {
+    margin-bottom: 30px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+article #produtos {
+    width: 60%;
+    min-width: 500px;
+}
+
+.post {
+    width: 200px;
+}
+
+#ofertas {
+    margin: 20px 0px 50px 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobrepost p {
+    margin: 10px 0px 10px 0px;
+}
+
+
+.sobrepost {
+    margin: 20px 0px 20px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #sobre {
+        padding: 30px 0px 40px 0px
+    }
+    
+
+    nav #conteiner2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    nav #conteiner2 img {
+        width: 100%;
+    }
+
+    nav #conteiner2 p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+
+    
+    .post {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post img {
+        width: 100%;
+    }
+
+    .sobrepost {
+        width: 100%;
+    }
+    
 }
